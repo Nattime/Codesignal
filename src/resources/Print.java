@@ -8,7 +8,7 @@ import java.util.Queue;
 import java.util.Set;
 
 public class Print{
-        public static boolean test = false;
+    public static boolean test = false;
 //    public static boolean test = true;
 
     public static void testPrint(){
@@ -75,6 +75,18 @@ public class Print{
             System.out.println("Is empty");
         }else{
             for(int iter : arr){
+                System.out.print(iter + " ");
+            }
+            System.out.println();
+        }
+    }
+
+    public static void print(double[] arr){
+        if(test) System.out.println("double arr");
+        if(arr == null || arr.length == 0){
+            System.out.println("Is empty");
+        }else{
+            for(double iter : arr){
                 System.out.print(iter + " ");
             }
             System.out.println();
