@@ -5,6 +5,14 @@ import resources.Print;
 public class CS{
     public static void main(String[] args){
 
+        /* countVowelConsonant
+        CountVowelConsonant cvc = new CountVowelConsonant();
+        Print.print(cvc.solution("a"));
+        Print.print(cvc.solution("abcde"));
+
+         */
+
+
         /* concatenateArrays
         ConcatenateArrays ca = new ConcatenateArrays();
         int[] a = {2, 2, 1};
