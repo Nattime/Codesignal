@@ -1,9 +1,18 @@
 package main;
 
+import resources.Create;
+import resources.ListNode;
 import resources.Print;
 
 public class CS{
     public static void main(String[] args){
+
+//        findMiddleElement
+        FindMiddleElement fme = new FindMiddleElement();
+        int[] arr = {5, 4, 3, 2, 1};
+        ListNode<Integer> l = Create.createListNodeList(arr);
+        Print.print(fme.solution(l));
+
 
         /* fareEstimator
         FareEstimator fe = new FareEstimator();
