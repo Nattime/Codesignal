@@ -2,7 +2,7 @@ package resources;
 
 import java.util.*;
 
-public class Create{
+public class Create<T>{
     static Tree createRandomTree(int[][] matrix){
         Map<Integer, Tree> m = new HashMap<>();
         System.out.println(matrix.length + " len ");
@@ -20,6 +20,19 @@ public class Create{
         }
 
         return m.get(matrix[0][0]);
+    }
+
+    public static ListNode<Integer> createListNodeList(int[] arr){
+        if(arr == null || arr.length == 0){
+            return null;
+        }
+        ListNode<Integer> head = new ListNode<>(arr[0]);
+        ListNode<Integer> trav = head;
+        for(int i = 1; i < arr.length; i++){
+            trav.next = new ListNode<>(arr[i]);
+            trav = trav.next;
+        }
+        return head;
     }
 
     static Tree setTree(int data, Map<Integer, Tree> m){
@@ -47,7 +60,7 @@ public class Create{
         Queue<Node> q = new LinkedList<>();
         q.add(root);
 
-        for(int i = 1;i < arr.length;i++){
+        for(int i = 1; i < arr.length; i++){
             Node curr = q.remove();
             if(arr[i] == -1){
                 curr.setLeft(null);
@@ -98,7 +111,7 @@ public class Create{
             return null;
         }
         Node root = new Node(arr[0]);
-        for(int i = 1;i < arr.length;i++){
+        for(int i = 1; i < arr.length; i++){
             bstAdd(root, arr[i]);
         }
         return root;
@@ -130,7 +143,7 @@ public class Create{
         }
         Node head = new Node(arr[0]);
         Node trav = head;
-        for(int i = 1;i < arr.length;i++){
+        for(int i = 1; i < arr.length; i++){
             trav.left = trav.next = new Node(arr[i]);
             trav = trav.next;
         }
@@ -143,7 +156,7 @@ public class Create{
         }
         Node head = new Node(arr[0]);
         Node trav = head;
-        for(int i = 1;i < arr.length;i++){
+        for(int i = 1; i < arr.length; i++){
             trav.right = trav.next = new Node(arr[i]);
             trav = trav.next;
         }
