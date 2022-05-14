@@ -5,6 +5,14 @@ import resources.Print;
 public class CS{
     public static void main(String[] args){
 
+        /* fancyRide
+        FancyRide fr = new FancyRide();
+        double[] arr = {0.3, 0.5, 0.7, 1, 1.3};
+        Print.print(fr.solution(30, arr));
+
+         */
+
+
         /* countVowelConsonant
         CountVowelConsonant cvc = new CountVowelConsonant();
         Print.print(cvc.solution("a"));
