@@ -5,6 +5,15 @@ import resources.Print;
 public class CS{
     public static void main(String[] args){
 
+        /* concatenateArrays
+        ConcatenateArrays ca = new ConcatenateArrays();
+        int[] a = {2, 2, 1};
+        int[] b = {10, 11};
+        Print.print(ca.solution(a, b));
+
+         */
+
+
         /* reverseSentence
         ReverseSentence rs = new ReverseSentence();
         Print.print(rs.solution("Man bites dog"));
