@@ -5,6 +5,15 @@ import resources.Print;
 public class CS{
     public static void main(String[] args){
 
+        /* fareEstimator
+        FareEstimator fe = new FareEstimator();
+        double[] cost_per_minute = {0.2, 0.35, 0.4, 0.45};
+        double[] cost_per_mile = {1.1, 1.8, 2.3, 3.5};
+        Print.print(fe.solution(30, 7, cost_per_minute, cost_per_mile));
+
+         */
+
+
         /* fancyRide
         FancyRide fr = new FancyRide();
         double[] arr = {0.3, 0.5, 0.7, 1, 1.3};
