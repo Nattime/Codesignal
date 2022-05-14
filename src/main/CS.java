@@ -4,6 +4,15 @@ import resources.Print;
 
 public class CS{
     public static void main(String[] args){
+
+        /* missingNumber
+        MissingNumber mn = new MissingNumber();
+        int[] arr = {3, 1, 0};
+        Print.print(mn.solution(arr));
+
+         */
+
+
         /* sortByHeight
         SortByHeight sbh = new SortByHeight();
         int[] arr = {-1, 150, 190, 170, -1, -1, 160, 180};
