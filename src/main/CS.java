@@ -7,6 +7,15 @@ import resources.Print;
 public class CS{
     public static void main(String[] args){
 
+        /* isListPalindrome
+        IsListPalindrome ilp = new IsListPalindrome();
+        int[] arr = {0, 1, 0};
+        ListNode<Integer> l = Create.createListNodeList(arr);
+        Print.print(ilp.solution(l));
+
+         */
+
+
         /* mirrorBits
         MirrorBits mb = new MirrorBits();
         Print.print(mb.solution(97));
