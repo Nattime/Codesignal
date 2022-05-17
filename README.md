@@ -1,5 +1,7 @@
 # Codesignal Completed Coding Challenges
 ## Finished challenges
+phoneCall
+
 removeArrayPart
 
 isListPalindrome

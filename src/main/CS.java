@@ -7,6 +7,14 @@ import resources.Print;
 public class CS{
     public static void main(String[] args){
 
+        /* phoneCall
+        PhoneCall pc = new PhoneCall();
+        Print.print(pc.solution(3,1,2,20));
+        Print.print(pc.solution(2,2,1,2));
+
+         */
+
+
         /* removeArrayPart
         RemoveArrayPart rap = new RemoveArrayPart();
         int[] inputArray = {2, 3, 2, 3, 4, 5};
