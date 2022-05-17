@@ -1,5 +1,7 @@
 # Codesignal Completed Coding Challenges
 ## Finished challenges
+removeArrayPart
+
 isListPalindrome
 
 mirrorBits

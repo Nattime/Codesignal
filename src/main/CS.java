@@ -7,6 +7,14 @@ import resources.Print;
 public class CS{
     public static void main(String[] args){
 
+        /* removeArrayPart
+        RemoveArrayPart rap = new RemoveArrayPart();
+        int[] inputArray = {2, 3, 2, 3, 4, 5};
+        Print.print(rap.solution(inputArray, 2, 4));
+
+         */
+
+
         /* isListPalindrome
         IsListPalindrome ilp = new IsListPalindrome();
         int[] arr = {0, 1, 0};
@@ -88,7 +96,6 @@ public class CS{
         Print.print(sbh.solution(arr));
 
          */
-
 
 //        Print.print("hello");
     }
